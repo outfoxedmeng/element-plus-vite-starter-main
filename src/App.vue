@@ -6,6 +6,8 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <el-breadcrumb separator="/">
     <el-breadcrumb-item :to="{ path: '/home' }">homepage</el-breadcrumb-item>
+    <el-breadcrumb-item :to="{ path: '/css' }">CSS</el-breadcrumb-item>
+    <el-breadcrumb-item :to="{ path: '/vite' }">vite</el-breadcrumb-item>
     <el-breadcrumb-item>
       <a href="/">promotion management</a>
     </el-breadcrumb-item>

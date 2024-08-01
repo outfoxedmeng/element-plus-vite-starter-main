@@ -5,10 +5,9 @@ import App from "./App.vue";
 
 import ElementPlus from "element-plus";
 
-import "./styles/tailwind.css";
 // import all element css, uncommented next line
 import "element-plus/dist/index.css";
-
+import "./styles/tailwind.css";
 // or use cdn, uncomment cdn link in `index.html`
 
 // import "~/styles/index.scss";

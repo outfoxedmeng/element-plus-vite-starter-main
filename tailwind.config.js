@@ -14,5 +14,5 @@ module.exports = {
         text_color_regular: "var(--el-text-color-regular)"
       }
     }
-  }
+  },
 };

@@ -4,7 +4,7 @@ import vue from "@vitejs/plugin-vue";
 import { fileURLToPath, URL } from "node:url";
 import Components from "unplugin-vue-components/vite";
 import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
-
+import svgLoader from "vite-svg-loader";
 // import Unocss from 'unocss/vite'
 // import {
 //   presetAttributify,
@@ -33,6 +33,9 @@ export default defineConfig({
   },
   plugins: [
     vue(),
+    svgLoader({
+      defaultImport: "component", // or 'raw'
+    }),
     Components({
       // allow auto load markdown components under `./src/components/`
       extensions: ["vue", "md"],
